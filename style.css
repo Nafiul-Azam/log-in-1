@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Doto&display=swap");
+
+/* Reset styles */
+body,
+h1,
+h2,
+p,
+a,
+form,
+input,
+button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom right, #59b6cb, #e414c1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #c3b78d;
+}
+
+/* Login container */
+.login-container {
+  background-color: #ece3de;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Heading styles */
+.login-container h1 {
+  font-family: "Doto", sans-serif; /* এখানে Doto ফন্ট ব্যবহার করুন */
+  font-size: 35px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 10px;
+}
+
+.login-container h2 {
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+h2 .custom-font {
+  font-family: "Protest Revolution", sans-serif;
+  font-size: 20px;
+  color: #443f2e;
+}
+
+h3.doto {
+  font-family: "Fira Code", serif;
+  font-size: 19px;
+  margin-top: 0;
+  color: #333;
+}
+
+/* Input box styles */
+.input-box {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-box label {
+  display: block;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.input-box input:focus {
+  outline: none;
+  border-color: #6a11cb;
+  box-shadow: 0 0 5px rgba(106, 17, 203, 0.5);
+}
+
+/* Button styles */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4d0fde;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #4a0dcb;
+}
+
+/* Signup link styles */
+.signup-link {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #666;
+}
+
+.signup-link a {
+  color: #6a11cb;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
